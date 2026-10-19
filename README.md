@@ -15,7 +15,7 @@ Everything is stored in your browser. Without an API key, Karen sends nothing an
 2. Open `chrome://extensions`, turn on **Developer mode**, click **Load unpacked**, and pick the folder.
 3. Click the Karen icon, open **Settings**, and enter your name, address, email, and phone (used for the DOT form).
 
-For United, sign in to united.com in the tab Karen opens; Karen continues after you sign in. Karen never types passwords.
+On United's site, sign in if asked. Karen looks for your trip and flight; if she can't tell which one, click your trip, then pick the flight leg and click Continue, and Karen fills in the rest. On DOT, Karen fills every page and tells you if a question needs you. Both forms stop on their review page for you to read and submit. Karen never types passwords and never clicks Submit.
 
 ## Develop
 

@@ -129,7 +129,13 @@ async function edit(c, missing = []) {
     <h2>4. File</h2>
     ${needContact ? `<form id="contact" autocomplete="on"><p><b>Your contact details for the DOT form</b> <span class="muted">(asked once, then remembered; click First name to let Chrome fill them in)</span></p>${PROFILE.map(([k, l, ac]) => input(k, l, ac === "email" ? "email" : ac === "tel" ? "tel" : "text", null, profile[k], false, ac)).join("")}</form>` : ""}
     <p><button id="fileB" style="font-weight:700">File with United + DOT</button><button id="fileU">United only</button><button id="fileD">DOT only</button> <span class="busy over"></span></p>
-    <p class="muted">Karen fills each form and stops on its review page. You click Submit; Karen notices and marks it filed. Sign in to United in its tab if asked.</p>
+    <div class="muted"><b>What happens next</b><ol>
+      <li><b>United</b> opens in a new tab. Sign in if asked. If Karen can't tell which trip this is, click your <b>trip</b>, then pick the <b>flight leg</b> and click Continue.
+        <div class="takeover">✋ That's all you do. <b>Karen takes over from there and fills in the rest of United's form for you.</b></div></li>
+      <li><b>DOT</b> opens in another tab. You don't need to do anything to start.
+        <div class="takeover">🤖 <b>Karen fills in every page of the DOT form for you.</b> If a question needs your answer, she tells you which one; answer it and click Continue on her note.</div></li>
+      <li>Each form stops on its review page. Read it and click <b>Submit</b> yourself (on DOT, tick the "I affirm" box first). Karen notices and marks it filed.</li>
+    </ol></div>
     <p class="muted">${c.refs.united ? `United: filed ${c.refs.united === "submitted" ? "" : `(case ${esc(c.refs.united)})`}` : "United: not filed"} · ${c.refs.dot ? `DOT: filed ${c.refs.dot === "submitted" ? "" : `(case ${esc(c.refs.dot)})`}` : "DOT: not filed"}</p>
     <p><button id="save">Save</button><button id="didU">I filed with United</button><button id="didD">I filed with DOT</button><button id="done">Mark done</button><button id="del">Delete</button></p>
     <div class="muted">${(c.log || []).slice(-5).map((l) => esc(l.at.slice(0, 16) + " " + l.text)).join("<br>")}</div>`;

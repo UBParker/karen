@@ -142,7 +142,7 @@
       const nav = await until(() => findButton("Next") || findButton("Submit"), 60000);
       if (!nav) return say("the form didn't load. Reload the page and click File with DOT again.");
       if (name(nav) === "Submit") { watchSubmit(); return say("done. Read the review page, tick the affirmation box yourself, and click Submit."); }
-      say(`filling page ${page + 1}…`);
+      say(`filling page ${page + 1} of the DOT form for you. Sit back; I'll stop on the review page.`);
       const tried = new Set();
       for (let i = 0; i < 60 && (await fillOnce(job.answers, tried)); i++);
       if (all("input[type=file]").length && job.files?.length && !job.attached) { job.attached = true; await attach(all("input[type=file]")[0]); await settle(); await sleep(3000); }
@@ -162,12 +162,12 @@
   // ---------- United ----------
   const steps = {
     async dismiss(id) { const d = all("[role=dialog], dialog").find((x) => name(x).toLowerCase().includes(id) || x.id?.includes(id)); const b = d && [...d.querySelectorAll("button")].find((x) => name(x) === "Close"); if (b) { b.click(); await sleep(1000); } return true; },
-    async trip(text) { const b = await until(() => buttons().find((x) => name(x).includes(text)), 20000); if (!b) throw new Error("click the trip this complaint is about"); click(b); return true; },
+    async trip(text) { const b = await until(() => buttons().find((x) => name(x).includes(text)), 20000); if (!b) throw new Error("click your trip, then pick the flight leg and click Continue"); click(b); return true; },
     async leg(parts) {
       const radios = all("input[type=radio], [role=radio]");
       const box = (r) => { let e = r; while (e.parentElement && e.parentElement.querySelectorAll("input[type=radio], [role=radio]").length === 1) e = e.parentElement; return e; };
       const r = radios.find((x) => parts.every((p) => box(x).textContent.includes(p)));
-      if (!r) throw new Error("pick the flight leg, then click Continue");
+      if (!r) throw new Error("pick the flight leg and click Continue");
       if (!r.checked) click(labelFor(r) === r ? r : labelFor(r));
       return true;
     },
@@ -195,7 +195,7 @@
       say("working on " + step.path.split("/").pop() + "…");
       try {
         for (const a of step.do) { const [k] = Object.keys(a); await steps[k](a[k], a.value); await sleep(2500); }
-      } catch (e) { say(`needs you: ${e.message}. I'll pick up on the next page.`); }
+      } catch (e) { say(`needs you: ${e.message}. That's all you do: I'll take over from there and fill in the rest of the form for you.`); }
     }
   }
 
