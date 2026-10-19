@@ -1,0 +1,16 @@
+# URL: https://www.united.com/en/us/customer-care/select-lof
+- main:
+  - heading "Which part of your trip do you need help with?" [level=1]
+  - paragraph: If one or more of your original flights aren't listed, it could be because you were rebooked. You can mention those flights at the end.
+  - heading "Trip result for Chicago to Denver" [level=2]
+  - 'heading "Confirmation number: ABC123" [level=3]'
+  - heading "Chicago to Denver" [level=4]
+  - radio "Select this part of your trip" [checked]
+  - text: "Select this part of your trip NONSTOP Mar 10, 2026 Mar 11, 2026 Chicago, IL, US (ORD) Denver, CO, US (DEN) Scheduled: 9:25 PM Scheduled: 12:50 AM Actual: 1:02 AM"
+  - button "Show details"
+  - heading "Denver to Chicago" [level=4]
+  - radio "Select this part of your trip"
+  - text: "Select this part of your trip NONSTOP Mar 12, 2026 Denver, CO, US (DEN) Chicago, IL, US (ORD) Scheduled: 9:15 AM Scheduled: 11:05 AM Actual: 11:05 AM"
+  - button "Show details"
+  - button "Continue"
+  - button "Go back"

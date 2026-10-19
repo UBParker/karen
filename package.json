@@ -1,0 +1,1 @@
+{"name":"karen","private":true,"type":"module","scripts":{"test":"node --test tests/*.test.js","build":"esbuild ai.js --bundle --format=esm --minify --outfile=ai.bundle.js"},"dependencies":{"@anthropic-ai/sdk":"^0.135.0"},"devDependencies":{"esbuild":"^0.28.2"}}

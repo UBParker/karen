@@ -1,0 +1,991 @@
+[
+ {
+  "step": 0,
+  "heading": "Submission Type:",
+  "fields": [
+   {
+    "role": "radio",
+    "name": "Complaint",
+    "group": "Select One:",
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "radio",
+    "name": "Comment/Opinion",
+    "group": "Select One:",
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "radio",
+    "name": "Compliment",
+    "group": "Select One:",
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "button",
+    "name": "Next",
+    "group": null,
+    "required": false,
+    "options": []
+   }
+  ],
+  "file_inputs": 0
+ },
+ {
+  "step": 1,
+  "heading": "CONTACT INFORMATION",
+  "fields": [
+   {
+    "role": "button",
+    "name": "I am a(n) Help",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "combobox",
+    "name": "*I am a(n)",
+    "group": null,
+    "required": true,
+    "options": [
+     "--None--",
+     "Passenger",
+     "Relative of Passenger",
+     "Lawyer on behalf of Client",
+     "Travel Agency",
+     "Other"
+    ]
+   },
+   {
+    "role": "button",
+    "name": "Previous",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "button",
+    "name": "Next",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "button",
+    "name": "Passenger Information",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "button",
+    "name": "Salutation Help",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "combobox",
+    "name": "Salutation",
+    "group": null,
+    "required": false,
+    "options": [
+     "--None--",
+     "Mr.",
+     "Ms.",
+     "Mrs.",
+     "Dr.",
+     "Prof."
+    ]
+   },
+   {
+    "role": "textbox",
+    "name": "First Name",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "textbox",
+    "name": "Middle Name",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "textbox",
+    "name": "Last Name",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "textbox",
+    "name": "Suffix",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "button",
+    "name": "Country Help",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "combobox",
+    "name": "*Country",
+    "group": null,
+    "required": true,
+    "options": [
+     "--None--",
+     "United States",
+     "Afghanistan",
+     "Albania",
+     "Algeria",
+     "Andorra",
+     "Angola",
+     "Anguilla",
+     "Antarctica",
+     "Antigua and Barbuda",
+     "Argentina",
+     "Armenia",
+     "Aruba",
+     "Australia",
+     "Austria",
+     "Aland Islands",
+     "Azerbaijan",
+     "Bahamas",
+     "Bahrain",
+     "Bangladesh",
+     "Barbados",
+     "Belarus",
+     "Belgium",
+     "Belize",
+     "Benin",
+     "Bermuda",
+     "Bhutan",
+     "Bolivia",
+     "Bosnia and Herzegovina",
+     "Botswana",
+     "Bouvet Island",
+     "Caribbean Netherlands",
+     "Brazil",
+     "British Indian Ocean Territory",
+     "Brunei",
+     "Bulgaria",
+     "Burkina Faso",
+     "Burundi",
+     "Cabo Verde",
+     "Cambodia",
+     "Cameroon",
+     "Canada",
+     "Cayman Islands",
+     "Central African Republic",
+     "Chad",
+     "Chile",
+     "China",
+     "Christmas Island",
+     "Cocos (Keeling) Islands",
+     "Colombia",
+     "Comoros",
+     "Cook Islands",
+     "Costa Rica",
+     "Cote d'Ivoire",
+     "Croatia",
+     "Cuba",
+     "Curacao",
+     "Cyprus",
+     "Czechia",
+     "Democratic Republic of the Congo",
+     "...240 total"
+    ]
+   },
+   {
+    "role": "textbox",
+    "name": "Email Address",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "textbox",
+    "name": "Verify Email Address",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "checkbox",
+    "name": "Add Another Passenger",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "button",
+    "name": "Add Another Passenger Help",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "textbox",
+    "name": "Street Address",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "textbox",
+    "name": "City",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "button",
+    "name": "State/Province Help",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "combobox",
+    "name": "*State/Province",
+    "group": null,
+    "required": true,
+    "options": [
+     "--None--",
+     "AL",
+     "AK",
+     "AZ",
+     "AR",
+     "AS",
+     "CA",
+     "CO",
+     "CT",
+     "DE",
+     "DC",
+     "FL",
+     "GA",
+     "GU",
+     "HI",
+     "ID",
+     "IL",
+     "IN",
+     "IA",
+     "KS",
+     "KY",
+     "LA",
+     "ME",
+     "MD",
+     "MA",
+     "MI",
+     "MN",
+     "MS",
+     "MO",
+     "MT",
+     "NE",
+     "NV",
+     "NH",
+     "NJ",
+     "NM",
+     "NY",
+     "NC",
+     "ND",
+     "MP",
+     "OH",
+     "OK",
+     "OR",
+     "PA",
+     "PR",
+     "RI",
+     "SC",
+     "SD",
+     "TN",
+     "TX",
+     "TT",
+     "UT",
+     "VT",
+     "VA",
+     "VI",
+     "WA",
+     "WV",
+     "WI",
+     "WY"
+    ]
+   },
+   {
+    "role": "textbox",
+    "name": "Zip/Postal Code (Format of ##### or #####-####)",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "textbox",
+    "name": "Phone (Format of ###-###-####)",
+    "group": null,
+    "required": false,
+    "options": []
+   }
+  ],
+  "file_inputs": 0
+ },
+ {
+  "step": 2,
+  "heading": "FLIGHT INFORMATION",
+  "fields": [
+   {
+    "role": "button",
+    "name": "Did your trip start, end, or pass through the U.S. or a U.S. Territory? Help",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "combobox",
+    "name": "*Did your trip start, end, or pass through the U.S. or a U.S. Territory?",
+    "group": null,
+    "required": true,
+    "options": [
+     "--None--",
+     "Yes",
+     "No"
+    ]
+   },
+   {
+    "role": "button",
+    "name": "Previous",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "button",
+    "name": "Next",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "button",
+    "name": "Were you successfully able to complete your booking? Help",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "combobox",
+    "name": "*Were you successfully able to complete your booking?",
+    "group": null,
+    "required": true,
+    "options": [
+     "--None--",
+     "Yes",
+     "No"
+    ]
+   },
+   {
+    "role": "button",
+    "name": "Please identify who this complaint is about. Help",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "combobox",
+    "name": "*Please identify who this complaint is about.",
+    "group": null,
+    "required": true,
+    "options": [
+     "--None--",
+     "Airline",
+     "Ticket Agent/Online Ticket Agent"
+    ]
+   },
+   {
+    "role": "button",
+    "name": "Did you purchase your ticket directly with an Airline? Help",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "combobox",
+    "name": "*Did you purchase your ticket directly with an Airline?",
+    "group": null,
+    "required": true,
+    "options": [
+     "--None--",
+     "Yes",
+     "No"
+    ]
+   },
+   {
+    "role": "combobox",
+    "name": "*Flight Itinerary",
+    "group": null,
+    "required": true,
+    "options": [
+     "--None--",
+     "Round Trip",
+     "One-Way",
+     "Multi-Stop"
+    ]
+   },
+   {
+    "role": "combobox",
+    "name": "Airline",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "button",
+    "name": "Clear Airline Selection",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "textbox",
+    "name": "If known, please enter your Confirmation Number / Confirmation Code.",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "textbox",
+    "name": "Flight Number",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "textbox",
+    "name": "Date of Departure",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "button",
+    "name": "Select a date for Date of Departure",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "button",
+    "name": "Departure (Origin) Airport Help Info",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "combobox",
+    "name": "Departure (Origin) Airport",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "textbox",
+    "name": "Date of Arrival",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "button",
+    "name": "Select a date for Date of Arrival",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "button",
+    "name": "Arrival Airport Help Info",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "combobox",
+    "name": "Arrival Airport",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "checkbox",
+    "name": "Add Another Flight?",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "button",
+    "name": "Clear Departure (Origin) Airport Selection",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "button",
+    "name": "Clear Arrival Airport Selection",
+    "group": null,
+    "required": false,
+    "options": []
+   }
+  ],
+  "file_inputs": 0
+ },
+ {
+  "step": 3,
+  "heading": "DETAILS",
+  "fields": [
+   {
+    "role": "checkbox",
+    "name": "Check here, if you have previously submitted a complaint to OACP about this matter",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "checkbox",
+    "name": "Flight Problem",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "checkbox",
+    "name": "Bumping/Oversold Flight",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "checkbox",
+    "name": "Reservations/Ticketing/Boarding",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "checkbox",
+    "name": "Fees/Fares",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "checkbox",
+    "name": "Refund",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "checkbox",
+    "name": "Baggage/Luggage",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "checkbox",
+    "name": "Customer Service (including Family Seating)",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "checkbox",
+    "name": "Disability Accommodation (including Service Animals)",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "checkbox",
+    "name": "Advertising (including how information was presented during booking)",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "checkbox",
+    "name": "Discrimination (other than on the basis of Disability)",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "checkbox",
+    "name": "Animals/Pets (Not Service Animals)",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "checkbox",
+    "name": "Safety",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "checkbox",
+    "name": "Security",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "checkbox",
+    "name": "In-flight Sexual Misconduct",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "checkbox",
+    "name": "Other",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "button",
+    "name": "Previous",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "button",
+    "name": "Next",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "button",
+    "name": "Flight Problem",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "radio",
+    "name": "The flight was delayed",
+    "group": "What was the main problem?",
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "radio",
+    "name": "The flight was canceled",
+    "group": "What was the main problem?",
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "radio",
+    "name": "The passenger missed a connecting flight",
+    "group": "What was the main problem?",
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "radio",
+    "name": "The flight made an unscheduled landing (diverted)",
+    "group": "What was the main problem?",
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "radio",
+    "name": "There was a tarmac delay",
+    "group": "What was the main problem?",
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "radio",
+    "name": "Advance Schedule Change",
+    "group": "What was the main problem?",
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "radio",
+    "name": "The passenger was not promptly notified by the carrier of a change in flight status",
+    "group": "What was the main problem?",
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "radio",
+    "name": "Something else related to the flight not being on schedule",
+    "group": "What was the main problem?",
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "radio",
+    "name": "Maintenance",
+    "group": "Please select the cause of the delay:",
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "radio",
+    "name": "Crew Availability",
+    "group": "Please select the cause of the delay:",
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "radio",
+    "name": "Airline Technology Problem",
+    "group": "Please select the cause of the delay:",
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "radio",
+    "name": "Weather",
+    "group": "Please select the cause of the delay:",
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "radio",
+    "name": "Air Traffic Control",
+    "group": "Please select the cause of the delay:",
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "radio",
+    "name": "Other/Not Sure",
+    "group": "Please select the cause of the delay:",
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "radio",
+    "name": "Yes",
+    "group": "Did the airline rebook the passenger(s) during the delay at no cost?",
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "radio",
+    "name": "No",
+    "group": "Did the airline rebook the passenger(s) during the delay at no cost?",
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "spinbutton",
+    "name": "How much did the the passenger(s) spend to rebook on the same or a different airline?",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "spinbutton",
+    "name": "To date, how much has the airline reimbursed?",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "button",
+    "name": "This section contains an error.",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "radio",
+    "name": "Yes",
+    "group": "Did the flight delay result in the passenger(s) waiting 3 hours or more?",
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "radio",
+    "name": "No",
+    "group": "Did the flight delay result in the passenger(s) waiting 3 hours or more?",
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "radio",
+    "name": "Yes",
+    "group": "Did the airline deny a request from the passenger to provide a meal or meal voucher during the delay?",
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "radio",
+    "name": "No",
+    "group": "Did the airline deny a request from the passenger to provide a meal or meal voucher during the delay?",
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "radio",
+    "name": "Yes",
+    "group": "Did the delay continue overnight?",
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "radio",
+    "name": "No",
+    "group": "Did the delay continue overnight?",
+    "required": false,
+    "options": []
+   }
+  ],
+  "file_inputs": 0
+ },
+ {
+  "step": 4,
+  "heading": "DETAILS",
+  "fields": [
+   {
+    "role": "button",
+    "name": "Complaint Description",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "textbox",
+    "name": "",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "button",
+    "name": "Documents",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "button",
+    "name": "Upload Files Or drop files",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "checkbox",
+    "name": "Select 0 items",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "button",
+    "name": "Show Title column actions",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "button",
+    "name": "Show Date Uploaded column actions",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "button",
+    "name": "Previous",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "button",
+    "name": "Next",
+    "group": null,
+    "required": false,
+    "options": []
+   }
+  ],
+  "file_inputs": 1
+ },
+ {
+  "step": 5,
+  "heading": "REVIEW AND SUBMIT",
+  "fields": [
+   {
+    "role": "button",
+    "name": "Passenger Information",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "button",
+    "name": "Flight Information",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "button",
+    "name": "Flights",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "button",
+    "name": "Details",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "checkbox",
+    "name": "I affirm, to the best of my knowledge and belief, that this complaint submission is true and accurate.",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "button",
+    "name": "Previous",
+    "group": null,
+    "required": false,
+    "options": []
+   },
+   {
+    "role": "button",
+    "name": "Submit",
+    "group": null,
+    "required": false,
+    "options": []
+   }
+  ],
+  "file_inputs": 0
+ }
+]

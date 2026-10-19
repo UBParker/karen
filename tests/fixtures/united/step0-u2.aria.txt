@@ -1,0 +1,37 @@
+# URL: https://www.united.com/en/us/customer-care
+- main:
+  - heading "How can we help you today?" [level=1]
+  - paragraph: Do you need help with a recent trip or want to share feedback on an experience? Start a request with our Customer Care team.
+  - heading "Which trip can we help with?" [level=2]
+  - paragraph:
+    - text: By continuing this form, you agree to United’s
+    - link "Privacy Policy opens in a new tab":
+      - /url: https://www.united.com/ual/en/US/fly/privacy.html
+      - text: Privacy Policy
+    - text: and to the processing of any information you provide in the United States.
+  - button "Flight from Chicago to Denver Departure date Tue, March 10, 2026 Confirmation number ABC123 Traveler details PASSENGER ONE + 1":
+    - heading "Flight from Chicago to Denver" [level=3]: Chicago to Denver
+    - paragraph: Tue, March 10, 2026 ABC123 PASSENGER ONE + 1
+  - button "Flight from Chicago to Boston Departure date Sat, February 21, 2026 Confirmation number DEF456 Traveler details PASSENGER ONE":
+    - heading "Flight from Chicago to Boston" [level=3]: Chicago to Boston
+    - paragraph: Sat, February 21, 2026 DEF456 PASSENGER ONE
+  - button "Flight from Chicago to Seattle Departure date Sat, February 7, 2026 Confirmation number GHI789 Traveler details PASSENGER ONE + 1":
+    - heading "Flight from Chicago to Seattle" [level=3]: Chicago to Seattle
+    - paragraph: Sat, February 7, 2026 GHI789 PASSENGER ONE + 1
+  - button "Find a different trip See your past trips.":
+    - heading "Find a different trip" [level=3]
+    - paragraph: See your past trips.
+  - text: Continue without a confirmation or ticket number,
+  - link "See options to continue without a confirmation number":
+    - /url: /en/US/customer-care/select-category
+    - text: see options
+  - text: .
+  - link "Already have a claim?":
+    - /url: /en/US/customer-care/claim-status
+  - heading "Looking for something else?" [level=2]
+  - paragraph:
+    - text: For help during your trip, or with future travel plans, please visit the
+    - link "Help Center opens in a new tab":
+      - /url: /en/US/fly/help-center.html
+      - text: Help Center
+    - text: .

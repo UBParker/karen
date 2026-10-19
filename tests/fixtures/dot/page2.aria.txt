@@ -1,0 +1,91 @@
+- main:
+  - paragraph:
+    - strong: FLIGHT INFORMATION
+  - paragraph:
+    - strong: Items marked with an * are required.
+  - text: Did your trip start, end, or pass through the U.S. or a U.S. Territory?
+  - button "Did your trip start, end, or pass through the U.S. or a U.S. Territory? Help": Help
+  - text: "*Did your trip start, end, or pass through the U.S. or a U.S. Territory?"
+  - combobox "*Did your trip start, end, or pass through the U.S. or a U.S. Territory?":
+    - option "--None--"
+    - option "Yes" [selected]
+    - option "No"
+  - status
+  - text: Were you successfully able to complete your booking?
+  - button "Were you successfully able to complete your booking? Help": Help
+  - text: "*Were you successfully able to complete your booking?"
+  - combobox "*Were you successfully able to complete your booking?":
+    - option "--None--"
+    - option "Yes" [selected]
+    - option "No"
+  - status
+  - text: Please identify who this complaint is about.
+  - button "Please identify who this complaint is about. Help": Help
+  - text: "*Please identify who this complaint is about."
+  - combobox "*Please identify who this complaint is about.":
+    - option "--None--"
+    - option "Airline" [selected]
+    - option "Ticket Agent/Online Ticket Agent"
+  - status
+  - paragraph:
+    - emphasis: "This Airline field below is a picklist and does not work like other kinds of checkboxes. You can use the following keyboard shortcuts for this field: Enter 3 or more characters to search. Tab for Search Results. Use Up and Down arrows to find selection. Press Enter to make selection."
+  - text: Airline
+  - combobox "Airline": United Airlines (UA)
+  - button "Clear Airline Selection"
+  - status
+  - text: Did you purchase your ticket directly with an Airline?
+  - button "Did you purchase your ticket directly with an Airline? Help": Help
+  - text: "*Did you purchase your ticket directly with an Airline?"
+  - combobox "*Did you purchase your ticket directly with an Airline?":
+    - option "--None--"
+    - option "Yes" [selected]
+    - option "No"
+  - status
+  - text: If known, please enter your Confirmation Number / Confirmation Code.
+  - textbox "If known, please enter your Confirmation Number / Confirmation Code.": ABC123
+  - text: Flight Itinerary *Flight Itinerary
+  - combobox "*Flight Itinerary":
+    - option "--None--"
+    - option "Round Trip"
+    - option "One-Way" [selected]
+    - option "Multi-Stop"
+  - status
+  - paragraph
+  - paragraph:
+    - strong: List the flights related to your submission.
+  - paragraph:
+    - emphasis: "This Airline field below is a picklist and does not work like other kinds of checkboxes. You can use the following keyboard shortcuts for this field: Enter 3 or more characters to search. Tab for Search Results. Use Up and Down arrows to find selection. Press Enter to make selection."
+  - text: Airline
+  - combobox "Airline": United Airlines (UA)
+  - button "Clear Airline Selection"
+  - status
+  - text: Flight Number
+  - textbox "Flight Number": "1234"
+  - text: Date of Departure
+  - group:
+    - textbox "Date of Departure": Mar 12, 2026
+    - button "Select a date for Date of Departure"
+  - text: "Format: Dec 31, 2024 Departure (Origin) Airport"
+  - button "Departure (Origin) Airport Help Info"
+  - text: Airport
+  - combobox "Departure (Origin) Airport": US - Denver - Denver International (DEN)
+  - button "Clear Departure (Origin) Airport Selection"
+  - status
+  - text: Date of Arrival
+  - group:
+    - textbox "Date of Arrival": Mar 12, 2026
+    - button "Select a date for Date of Arrival"
+  - text: "Format: Dec 31, 2024 Arrival Airport"
+  - button "Arrival Airport Help Info"
+  - text: Airport
+  - combobox "Arrival Airport": US - Chicago - O'Hare International (ORD)
+  - button "Clear Arrival Airport Selection"
+  - status
+  - checkbox "Add Another Flight?"
+  - text: Add Another Flight? Add Another Flight?
+  - paragraph
+  - paragraph:
+    - emphasis: OMB Control Number 2105-0568
+  - button "Previous"
+  - button "Next"
+  - text: Because of your changes, the content on the page changed.

@@ -1,0 +1,17 @@
+- main:
+  - paragraph:
+    - strong: "Submission Type:"
+  - paragraph:
+    - strong: A complaint is a specific written expression of dissatisfaction concerning a difficulty or problem which the person experienced when using or attempting to use an airline’s services. Complaints will be sent to the airline and/or ticket agent that is the subject of the complaint.
+  - paragraph: A comment is a remark regarding air transportation expressing an opinion. This information will be recorded in our database, but no further action is required by the airline and/or ticket agent.
+  - paragraph: A compliment is a submission regarding a positive experience. This information will be recorded in our database, but no further action is required by the airline and/or ticket agent.
+  - group "Select One:":
+    - text: "Select One:"
+    - radio "Complaint" [checked]
+    - text: Complaint
+    - radio "Comment/Opinion"
+    - text: Comment/Opinion
+    - radio "Compliment"
+    - text: Compliment
+  - button "Next"
+  - text: Because of your changes, the content on the page changed.

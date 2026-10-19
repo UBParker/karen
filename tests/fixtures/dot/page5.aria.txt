@@ -1,0 +1,171 @@
+- main:
+  - paragraph:
+    - strong: REVIEW AND SUBMIT
+  - list:
+    - listitem:
+      - heading "Passenger Information" [level=2]:
+        - button "Passenger Information" [expanded]
+      - paragraph:
+        - strong: "I am a(n):"
+        - text: Passenger
+      - paragraph:
+        - strong: "Salutation:"
+      - paragraph:
+        - strong: "First Name:"
+        - text: Test
+      - paragraph:
+        - strong: "Middle Name:"
+      - paragraph:
+        - strong: "Last Name:"
+        - text: Probe
+      - paragraph:
+        - strong: "Country:"
+        - text: United States
+      - paragraph:
+        - strong: "Street Address:"
+        - text: 1 Main St
+      - paragraph:
+        - strong: "City:"
+        - text: Denver
+      - paragraph:
+        - strong: "State/Province:"
+        - text: CO
+      - paragraph:
+        - strong: "Zip/Postal Code:"
+        - text: "80202"
+      - paragraph:
+        - strong: "Phone:"
+        - text: 303-555-0100
+      - paragraph:
+        - strong: "Email Address:"
+        - text: probe@example.com
+  - list:
+    - listitem:
+      - heading "Flight Information" [level=2]:
+        - button "Flight Information" [expanded]
+      - paragraph:
+        - strong: Did your trip start, end, or pass through the U.S. or a U.S. Territory?
+        - text: "Yes"
+      - paragraph:
+        - strong: Complaint against
+        - text: United Airlines (UA)
+      - paragraph:
+        - strong: Were you successfully able to complete your booking?
+        - text: "Yes"
+      - paragraph:
+        - strong: Did you purchase your ticket directly with an Airline?
+        - text: "Yes"
+      - paragraph:
+        - strong: "If known, please enter your Confirmation Number / Confirmation Code:"
+        - text: ABC123
+      - paragraph:
+        - strong: "Flight Itinerary:"
+        - text: One-Way
+  - list:
+    - listitem:
+      - heading "Flights" [level=2]:
+        - button "Flights" [expanded]
+      - paragraph:
+        - strong: "Flight 1:"
+      - paragraph: "Airline: United Airlines (UA)"
+      - paragraph: "Flight Number: 1234"
+      - paragraph: "Departure Date: March 12, 2026"
+      - paragraph: "Departure (Origin) Airport: US - Denver - Denver International (DEN)"
+      - paragraph: "Arrival Date: March 12, 2026"
+      - paragraph: "Arrival Airport: US - Chicago - O'Hare International (ORD)"
+  - list:
+    - listitem:
+      - heading "Details" [level=2]:
+        - button "Details" [expanded]
+      - paragraph
+      - paragraph:
+        - strong: "Previously contacted OACP about this matter:"
+        - text: N/A
+      - paragraph
+      - paragraph:
+        - strong: "Primary Complaint Reason:"
+        - text: Flight Problem
+      - paragraph
+      - paragraph:
+        - strong: "Complaint Description:"
+      - paragraph: Probe text for field mapping only. This form is not being submitted.
+      - paragraph
+      - paragraph:
+        - strong: "Complaint Workflow:"
+      - paragraph
+      - paragraph
+      - paragraph:
+        - strong: Primary Case Reason
+      - paragraph:
+        - strong: "Case Reason:"
+        - text: Flight Problem
+      - paragraph:
+        - strong: "Associated Subcategory/Subcategories:"
+        - text: Flight Delay
+      - paragraph
+      - paragraph:
+        - strong: Flight Problem
+        - text: "Additional Questions:"
+      - list:
+        - listitem:
+          - text: "Please select the cause of the delay:"
+          - strong: Maintenance
+      - paragraph
+      - list:
+        - listitem:
+          - text: Did the airline rebook the passenger(s) during the delay at no cost?
+          - strong: "No"
+        - listitem:
+          - text: How much did the the passenger(s) spend to rebook on the same or a different airline?
+          - strong: "0"
+        - listitem:
+          - text: To date, how much has the airline reimbursed?
+          - strong: "0"
+        - listitem:
+          - text: Did the flight delay result in the passenger(s) waiting 3 hours or more?
+          - strong: "Yes"
+        - listitem:
+          - text: Did the airline deny a request from the passenger to provide a meal or meal voucher during the delay?
+          - strong: "No"
+        - listitem:
+          - text: How much did the passenger(s) spend on meals during the delay?
+          - strong: N/A
+        - listitem:
+          - text: To date, how much has the airline reimbursed for this meal expense?
+          - strong: N/A
+        - listitem:
+          - text: Did the delay continue overnight?
+          - strong: "No"
+        - listitem:
+          - text: Did the airline deny a request from the passenger(s) for a hotel accommodation?
+          - strong: N/A
+        - listitem:
+          - text: How much did the passenger(s) spend on hotel accommodation during the overnight delay?
+          - strong: N/A
+        - listitem:
+          - text: To date, how much has the airline reimbursed for this hotel accommodation?
+          - strong: N/A
+        - listitem:
+          - text: Did the airline provide the passenger(s) transportation to and from the hotel?
+          - strong: N/A
+        - listitem:
+          - text: How much did the passenger(s) spend on transportation to/from the hotel?
+          - strong: N/A
+        - listitem:
+          - text: To date, how much has the airline reimbursed for this transportation expense?
+          - strong: N/A
+      - paragraph
+      - paragraph
+  - paragraph:
+    - strong: Acknowledgement and Consent
+  - paragraph:
+    - emphasis: You must attest to the statement below to submit your complaint.
+  - checkbox "I affirm, to the best of my knowledge and belief, that this complaint submission is true and accurate."
+  - text: I affirm, to the best of my knowledge and belief, that this complaint submission is true and accurate. I affirm, to the best of my knowledge and belief, that this complaint submission is true and accurate.
+  - paragraph
+  - paragraph:
+    - emphasis: OMB Control Number 2105-0568
+  - paragraph
+  - button "Previous"
+  - button "Submit"
+  - text: Because of your changes, the content on the page changed.

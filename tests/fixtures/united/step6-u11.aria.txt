@@ -1,0 +1,30 @@
+# URL: https://www.united.com/en/us/customer-care/contact-information
+- main:
+  - heading "Contact Information" [level=1]
+  - listitem:
+    - checkbox "I'm submitting this case for someone else"
+    - text: I'm submitting this case for someone else
+  - heading "Passenger contact information" [level=2]
+  - paragraph: Please review the passenger contact information and select your preferred name and contact details for this trip from the dropdown options below.
+  - heading "Traveler name" [level=3]
+  - text: Name
+  - combobox "Name":
+    - option "Passenger One" [selected]
+    - option "Passenger Two"
+  - separator
+  - heading "Contact information" [level=3]
+  - text: Phone number
+  - combobox "Phone number":
+    - option "******-0000" [selected]
+    - option "+1-******-1111"
+    - option "+1-******-0000"
+  - text: Email
+  - combobox "Email":
+    - option "p*******r@example.com" [selected]
+    - option "p**************r@example.com"
+  - button "Save and continue"
+  - button "Go back"
+  - heading "Selected trip" [level=3]
+  - button "Change"
+  - text: "NONSTOP Mar 12, 2026 Denver, CO, US (DEN) Chicago, IL, US (ORD) Scheduled: 9:15 AM Scheduled: 11:05 AM Actual: 11:05 AM"
+  - button "Show details"

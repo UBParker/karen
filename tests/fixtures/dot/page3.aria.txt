@@ -1,0 +1,100 @@
+- main:
+  - paragraph:
+    - strong: DETAILS
+  - paragraph:
+    - strong: Items marked with an * are required.
+  - checkbox "Check here, if you have previously submitted a complaint to OACP about this matter"
+  - text: Check here, if you have previously submitted a complaint to OACP about this matter Check here, if you have previously submitted a complaint to OACP about this matter
+  - group "What do you want to report to DOT? A problem with:":
+    - text: "What do you want to report to DOT? A problem with:"
+    - checkbox "Flight Problem" [checked]
+    - text: Flight Problem
+    - checkbox "Bumping/Oversold Flight"
+    - text: Bumping/Oversold Flight
+    - checkbox "Reservations/Ticketing/Boarding"
+    - text: Reservations/Ticketing/Boarding
+    - checkbox "Fees/Fares"
+    - text: Fees/Fares
+    - checkbox "Refund"
+    - text: Refund
+    - checkbox "Baggage/Luggage"
+    - text: Baggage/Luggage
+    - checkbox "Customer Service (including Family Seating)"
+    - text: Customer Service (including Family Seating)
+    - checkbox "Disability Accommodation (including Service Animals)"
+    - text: Disability Accommodation (including Service Animals)
+    - checkbox "Advertising (including how information was presented during booking)"
+    - text: Advertising (including how information was presented during booking)
+    - checkbox "Discrimination (other than on the basis of Disability)"
+    - text: Discrimination (other than on the basis of Disability)
+    - checkbox "Animals/Pets (Not Service Animals)"
+    - text: Animals/Pets (Not Service Animals)
+    - checkbox "Safety"
+    - text: Safety
+    - checkbox "Security"
+    - text: Security
+    - checkbox "In-flight Sexual Misconduct"
+    - text: In-flight Sexual Misconduct
+    - checkbox "Other"
+    - text: Other
+  - list:
+    - listitem:
+      - heading "Flight Problem" [level=2]:
+        - button "Flight Problem" [expanded]
+      - img "Icon of a clock"
+      - paragraph:
+        - strong: Flight Delays and Cancellations
+      - paragraph:
+        - text: The U.S. Department of Transportation has created a dashboard to ensure the traveling public has easy access to information about services that U.S. airlines provide to mitigate passenger inconveniences when the cause of a cancellation or delay was due to circumstances within the airline’s control. This easy-to-use dashboard will empower travelers to understand the amenities that U.S. airlines have promised to provide should there be a controllable flight cancellation or delay.
+        - link "LEARN MORE":
+          - /url: https://www.transportation.gov/airconsumer/airline-cancellation-delay-dashboard
+          - strong: LEARN MORE
+      - group "What was the main problem?":
+        - text: What was the main problem?
+        - radio "The flight was delayed" [checked]
+        - text: The flight was delayed
+        - radio "The flight was canceled"
+        - text: The flight was canceled
+        - radio "The passenger missed a connecting flight"
+        - text: The passenger missed a connecting flight
+        - radio "The flight made an unscheduled landing (diverted)"
+        - text: The flight made an unscheduled landing (diverted)
+        - radio "There was a tarmac delay"
+        - text: There was a tarmac delay
+        - radio "Advance Schedule Change"
+        - text: Advance Schedule Change
+        - radio "The passenger was not promptly notified by the carrier of a change in flight status"
+        - text: The passenger was not promptly notified by the carrier of a change in flight status
+        - radio "Something else related to the flight not being on schedule"
+        - text: Something else related to the flight not being on schedule
+      - paragraph: Please help us evaluate your complaint by answering the following.
+      - group "Please select the cause of the delay:":
+        - text: "Please select the cause of the delay:"
+        - radio "Maintenance" [checked]
+        - text: Maintenance
+        - radio "Crew Availability"
+        - text: Crew Availability
+        - radio "Airline Technology Problem"
+        - text: Airline Technology Problem
+        - radio "Weather"
+        - text: Weather
+        - radio "Air Traffic Control"
+        - text: Air Traffic Control
+        - radio "Other/Not Sure"
+        - text: Other/Not Sure
+      - group "Did the airline rebook the passenger(s) during the delay at no cost?":
+        - text: Did the airline rebook the passenger(s) during the delay at no cost?
+        - radio "Yes"
+        - text: "Yes"
+        - radio "No" [checked]
+        - text: "No"
+      - text: How much did the the passenger(s) spend to rebook on the same or a different airline?
+      - spinbutton "How much did the the passenger(s) spend to rebook on the same or a different airline?": $0
+      - text: To date, how much has the airline reimbursed?
+      - spinbutton "To date, how much has the airline reimbursed?"
+  - paragraph
+  - paragraph:
+    - emphasis: OMB Control Number 2105-0568
+  - button "Previous"
+  - button "Next"
+  - text: Because of your changes, the content on the page changed.

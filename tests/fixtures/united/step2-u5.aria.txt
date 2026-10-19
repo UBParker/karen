@@ -1,0 +1,15 @@
+# URL: https://www.united.com/en/us/customer-care/select-category
+- main:
+  - heading "How can we help?" [level=1]
+  - heading "Select to continue" [level=2]
+  - button "Disrupted Travel"
+  - button "Feedback or something else"
+  - button "Problem with checked bags"
+  - button "Report an injury"
+  - button "Questions on products and policies"
+  - button "Request refund"
+  - heading "Selected trip" [level=3]
+  - button "Change"
+  - text: "NONSTOP Mar 12, 2026 Denver, CO, US (DEN) Chicago, IL, US (ORD) Scheduled: 9:15 AM Scheduled: 11:05 AM Actual: 11:05 AM"
+  - button "Show details"
+  - button "Go back"

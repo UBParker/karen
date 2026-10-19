@@ -1,0 +1,85 @@
+- main:
+  - paragraph:
+    - strong: DETAILS
+  - paragraph:
+    - strong: "*Complaint Description is required."
+  - paragraph:
+    - text: "*"
+    - strong: Describe what happened.
+  - list:
+    - listitem:
+      - heading "Complaint Description" [level=2]:
+        - button "Complaint Description" [expanded]
+      - textbox: Probe text for field mapping only. This form is not being submitted.
+      - status
+      - text: 2932 characters remaining
+  - paragraph:
+    - strong: IMPORTANT
+    - text: ":"
+    - strong: Do not submit or upload attachments containing sensitive Personal Identifiable Information (PII) such as your social security number, credit card numbers, passport ID, driver's license number, birthdate, or any personal financial data. If sensitive information is detected, your submission may not be processed.
+  - list:
+    - listitem:
+      - heading "Documents" [level=2]:
+        - button "Documents" [expanded]
+      - paragraph:
+        - strong: Documents related to your complaint
+      - paragraph: "Optionally, you can upload copies of the documents related to your complaint. This includes:"
+      - list:
+        - listitem:
+          - strong: Your written contact
+          - text: with the airline such as an email to the airline’s customer service department or a copy of your online complaint with the airline or ticket agent
+        - listitem:
+          - strong: The airline's written response
+          - text: (unless they did not respond within 30 days)
+        - listitem:
+          - strong: Booking details
+          - text: (ticket / invoice / itinerary / confirmation)
+        - listitem:
+          - strong: All receipts related to the complaint
+          - text: (hotel, taxi, meals, etc.)
+      - paragraph:
+        - text: "Files must be less than:"
+        - strong: 5 MB
+      - paragraph:
+        - text: "Allowed File types:"
+        - strong: .doc, .docx,
+        - strong: .eml,
+        - strong
+        - strong: .gif, .jpeg, .jpg, .msg, .pdf, .png, .txt,
+        - strong: .xls, .xlsx
+      - paragraph
+      - paragraph: "Notes:"
+      - list:
+        - listitem:
+          - text: Documents provided should be in
+          - strong: English
+          - text: to the maximum extent possible
+        - listitem:
+          - text: There is a limit of
+          - strong: 5 documents
+          - text: for uploading.
+      - article:
+        - button "Upload Files Or drop files"
+        - text: Upload Files Or drop files
+        - status
+        - text: Navigation Mode
+        - grid:
+          - rowgroup:
+            - row "Choose a Row Select 0 items Title Date Uploaded Actions":
+              - gridcell "Choose a Row Select 0 items":
+                - text: Choose a Row
+                - checkbox "Select 0 items" [disabled]
+                - text: Select 0 items
+              - columnheader "Title":
+                - text: Title
+                - button "Show Title column actions"
+                - slider "Title column width": "394"
+              - columnheader "Date Uploaded":
+                - text: Date Uploaded
+                - button "Show Date Uploaded column actions"
+                - slider "Date Uploaded column width": "394"
+              - columnheader "Actions"
+          - rowgroup
+  - button "Previous"
+  - button "Next"
+  - text: Because of your changes, the content on the page changed.

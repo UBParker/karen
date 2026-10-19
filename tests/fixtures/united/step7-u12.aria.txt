@@ -1,0 +1,29 @@
+# URL: https://www.united.com/en/us/customer-care/summary
+- main:
+  - heading "Review your travel case request" [level=1]
+  - paragraph: Confirm and look over the details.
+  - heading "Summary" [level=2]
+  - heading "Selected trip" [level=2]
+  - button "Change trip"
+  - text: "NONSTOP Thu, Mar 12, 2026 Denver, CO, US (DEN) Chicago, IL, US (ORD) Scheduled: 9:15 AM Scheduled: 11:05 AM Actual: 11:05 AM"
+  - button "Show details"
+  - heading "Case type" [level=2]
+  - button "Edit"
+  - text: Disrupted Travel > Compensation and reimbursement
+  - heading "Describe what occurred" [level=2]
+  - button "Edit"
+  - text: "UA 1234 DEN to ORD on Mar 12, 2026 (ABC123, 2 passengers: Passenger One and Passenger Two) was scheduled 9:15 AM to 11:05 AM. Because of a maintenance issue it departed about 4:15 PM and arrived about 6:20 PM, over 7 hours late. This form shows an 11:05 AM actual arrival, which is wrong; the attached United app screenshot shows the 7 hour delay. United did not announce the delay until after the 9:15 AM departure time had passed, so we waited at the gate with no warning and lost the whole day at DEN. Maintenance is within United's control. A $20 meal voucher per person did not cover a wait through breakfast, lunch, and into the afternoon. This delay defeated the purpose of the trip. I request a full refund of the entire trip for both passengers on ABC123. I have also filed a complaint with the U.S. Department of Transportation. Please respond in writing."
+  - heading "Attachments" [level=2]
+  - button "Edit"
+  - list:
+    - listitem: screenshot.png (326.8 KB)
+  - heading "Passenger contact information" [level=2]
+  - button "Edit"
+  - term: Name
+  - definition: Passenger One
+  - term: Phone number
+  - definition: "******-0000"
+  - term: Email
+  - definition: p**************r@example.com
+  - button "Submit"
+  - button "Go back"

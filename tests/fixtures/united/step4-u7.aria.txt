@@ -1,0 +1,22 @@
+# URL: https://www.united.com/en/us/customer-care/help-us-understand
+- main:
+  - heading "Help us understand your situation" [level=1]
+  - text: Please provide any information you think would be helpful for us to review your case.
+  - heading "Give us more details" [level=2]
+  - group:
+    - paragraph: "* means required field"
+    - text: Describe what occurred*
+    - textbox "Describe what occurred*"
+    - text: 1000 characters remaining
+  - button "Expense reimbursement (optional) Eligible expenses may include meals, transportation and hotel costs due to disruption. Requires agent review.":
+    - heading "Expense reimbursement (optional)" [level=3]
+    - text: Eligible expenses may include meals, transportation and hotel costs due to disruption. Requires agent review.
+  - button "Attach files (optional) Attach documents that support your request.":
+    - heading "Attach files (optional)" [level=3]
+    - text: Attach documents that support your request.
+  - button "Save and continue"
+  - button "Go back"
+  - heading "Selected trip" [level=3]
+  - button "Change"
+  - text: "NONSTOP Mar 12, 2026 Denver, CO, US (DEN) Chicago, IL, US (ORD) Scheduled: 9:15 AM Scheduled: 11:05 AM Actual: 11:05 AM"
+  - button "Show details"

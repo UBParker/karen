@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Karen</title>
+<style>
+  :root { --bg:#fff; --fg:#111; --muted:#666; --line:#ddd; --accent:#b01c2e; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#16161a; --fg:#eee; --muted:#999; --line:#333; } }
+  body { margin:0 auto; max-width:760px; padding:16px; background:var(--bg); color:var(--fg); font:15px/1.45 system-ui, sans-serif; }
+  h1 { color:var(--accent); margin:0 0 4px; } h2 { margin:24px 0 8px; }
+  nav button.on { font-weight:700; }
+  .q { display:grid; grid-template-columns:240px 1fr; gap:8px; align-items:center; margin:6px 0; }
+  .q.miss > span { color:var(--accent); font-weight:600; }
+  .yn input { position:absolute; opacity:0; }
+  .yn label { display:inline-block; padding:5px 16px; margin-right:6px; border:1px solid var(--line); border-radius:16px; cursor:pointer; }
+  .yn input:checked + label { background:var(--accent); border-color:var(--accent); color:#fff; }
+  .yn input:focus-visible + label { outline:2px solid var(--accent); }
+  input, select, textarea { font:inherit; padding:4px 6px; background:var(--bg); color:var(--fg); border:1px solid var(--line); border-radius:4px; }
+  textarea { width:100%; min-height:160px; box-sizing:border-box; }
+  button { font:inherit; padding:6px 12px; margin:4px 4px 4px 0; cursor:pointer; }
+  .row { border-bottom:1px solid var(--line); padding:8px 0; display:flex; justify-content:space-between; gap:8px; align-items:center; }
+  .muted { color:var(--muted); font-size:13px; } .over { color:var(--accent); font-weight:700; }
+  [hidden] { display:none !important; }
+  .star { color:var(--accent); }
+  footer { margin-top:32px; color:var(--muted); font-size:12px; }
+  @media (max-width:600px) { .q { grid-template-columns:1fr; } }
+</style>
+</head>
+<body>
+<h1>Karen</h1>
+<p class="muted">Write and file United and U.S. DOT flight complaints. Karen fills the forms; you click Submit.</p>
+<nav><button data-view="list">Complaints</button><button data-view="settings">Settings</button></nav>
+<main id="view"></main>
+<footer>Karen is not legal advice. Everything stays in this browser, except the forms you file and, if you add an API key, the screenshots and facts sent to the AI provider you chose. Speaking uses Chrome's on-device recognition when available; otherwise Chrome sends the audio to Google to transcribe, and Karen tells you while it listens.</footer>
+<script type="module" src="app.js"></script>
+</body>
+</html>
