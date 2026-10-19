@@ -4,7 +4,8 @@ export const REFS = {
   controllable: "As I understand it, DOT considers delays caused by the airline, such as maintenance or crew problems, cabin cleaning, baggage loading, and fueling, to be within the airline's control.",
   meals: "United has committed to DOT to provide a meal or meal voucher when a controllable delay lasts 3 hours or more (transportation.gov/airconsumer/airline-cancellation-delay-dashboard).",
   hotel: "United has also committed to provide a hotel room, with transportation to and from it, when a controllable delay runs overnight.",
-  refund: "DOT's refund rule (14 CFR Part 260) requires a refund when the airline cancels or significantly changes a flight (more than 3 hours domestic, 6 hours international) and the passenger does not accept the alternative.",
+  // https://www.transportation.gov/individuals/aviation-consumer-protection/refunds (checked 2026-10-19)
+  refund: "Under DOT's refund rule, a passenger is entitled to a refund when the airline cancels a flight, or delays it by 3 hours or more (6 hours or more internationally), and the passenger chooses not to travel or accept a voucher or other compensation (transportation.gov/individuals/aviation-consumer-protection/refunds).",
 };
 export const UNITED_MAX = 1000, DOT_MAX = 3000;
 

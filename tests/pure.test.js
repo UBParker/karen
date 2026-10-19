@@ -35,7 +35,7 @@ test("letters cite only reference-sheet rules", () => {
   const t = dotLetter({ ...facts, flew: false, problem: "cancelled" }, profile, { united: "C-1" });
   assert.ok(t.length <= DOT_MAX);
   assert.ok(t.includes(REFS.refund) && t.includes("C-1") && t.endsWith("Test Passenger"));
-  assert.doesNotMatch(t, /CFR (?!Part 260)|EU 261|Montreal/);
+  assert.doesNotMatch(t, /CFR|EU 261|Montreal/);
   assert.doesNotMatch(unitedLetter({ ...facts, cause: "weather" }), /3 hours or more/);
 });
 
